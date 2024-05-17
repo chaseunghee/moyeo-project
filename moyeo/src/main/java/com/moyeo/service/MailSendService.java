@@ -28,7 +28,7 @@ public class MailSendService {
 
 	//비밀번호 보낼 양식!
 	public void sendPwEmail(String email, String newPassword) {
-		String setFrom = "cyseok123@naver.com";
+		String setFrom = "csh3578@naver.com";
 		String toMail = email;
 		String title = "[모두의 여행] 비밀번호 찾기 이메일 입니다";
 		String content = "임시 발급 비밀번호는 " + newPassword + " 입니다.";
@@ -39,7 +39,7 @@ public class MailSendService {
 	//회원 가입 이메일 보낼 양식! 
 	public String joinEmail(String email) {
 		makeRandomNumber();
-		String setFrom = "cyseok123@naver.com"; // email-config에 설정한 자신의 이메일 주소를 입력 
+		String setFrom = "csh3578@naver.com"; // email-config에 설정한 자신의 이메일 주소를 입력 
 		String toMail = email;
 		String title = "[모두의 여행] 회원 가입 인증 이메일 입니다."; // 이메일 제목 
 		String content = 
@@ -55,7 +55,7 @@ public class MailSendService {
 	//휴면 계정 이메일 보낼 양식! 
 	public String activateUser(String email) {
 		makeRandomNumber();
-		String setFrom = "cyseok123@naver.com"; // email-config에 설정한 자신의 이메일 주소를 입력 
+		String setFrom = "csh3578@naver.com"; // email-config에 설정한 자신의 이메일 주소를 입력 
 		String toMail = email;
 		String title = "[모두의 여행] 휴면 계정 인증 이메일 입니다."; // 이메일 제목 
 		String content = 

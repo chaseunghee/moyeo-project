@@ -25,4 +25,3 @@
 - Service(MailSendService, Notice, Orders, Package, PackageSatusUpdate,Payment, Userinfo, UserinfoSecurity)
 - Util(Pager)
   
-[3조 발표_0830.pptx](https://github.com/chaseunghee/moyeo-project/files/15354138/3._0830.pptx)
